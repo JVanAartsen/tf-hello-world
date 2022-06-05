@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
   name: terraform-shim-hello
+  namespace: platform-tools
 spec:
   arguments:
     parameters:
